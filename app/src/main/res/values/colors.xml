@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="transparent_level4_b">#44000000</color>
+    <color name="transparent_level4_w">#44FFFFFF</color>
+    <color name="transparent_level8_w">#88FFFFFF</color>
+
+    <color name="color_LightGreen">#D9F9AA</color>
+    <color name="color_Green">#A9FB8B</color>
+    <color name="color_Medium_Green">#4DA155</color>
+    <color name="color_Pink">#F7BED6</color>
+    <color name="color_Light_Pink">#20ff0000</color>
+    <color name="color_Grey">#A0A69D</color>
+    <color name="color_LightGrey">#CDCFCD</color>
+    <color name="color_DarkGrey">#313030</color>
+    <color name="color_White">#FFFFFF</color>
+    <color name="color_BluishWhite">#EFFAFC</color>
+    <color name="color_OffWhite">#F0E0F0</color>
+
+    <color name="color_DirtyYellow">#CEC278</color>
+    <color name="color_Blue">#3F51B5</color>
+    <color name="color_SkyBlue">#54EAF9</color>
+    <color name="color_DarkPink">#E10F43</color>
+    <color name="color_Black">#000000</color>
+    <color name="color_DarkBlue">#303F9F</color>
+    <color name="color_NavyBlue">#2A99BC</color>
+    <color name="color_DarkBrown">#641503</color>
+    <color name="color_LightBrown">#BDAE5F</color>
+    <color name="color_line">#9D9170</color>
+    <color name="color_WhiteTranslucent">#D0FFFFFF</color>
+    <color name="color_LightOrange">#FDCB7A</color>
+    <color name="color_Orange">#F5A623</color>
+    <color name="color_notificationbar">#B8E986</color>
+    <color name="color_BlackTranslucent">#20000000</color>
+
+    <color name="blue_grey_500">#607D8B</color>
+    <color name="blue_grey_600">#546E7A</color>
+    <color name="blue_grey_700">#455A64</color>
+    <color name="blue_grey_800">#37474F</color>
+    <color name="blue_grey_900">#263238</color>
+</resources>

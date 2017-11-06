@@ -1,0 +1,87 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="in.arpaul.googlemapnew.MapsActivity" />
+
+    <ImageView
+        android:id="@+id/ivMarkerCentre"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_centre" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dip"
+        android:layout_gravity="bottom"
+        android:layout_margin="25dp"
+        android:background="@drawable/bg_edt_w"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtLocation"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:gravity="top"
+            android:padding="4dip" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="@color/color_Black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="10dip"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvLocate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Locate"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tvSearch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Search"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tvCopy"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Copy"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tvPaste"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Paste"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
